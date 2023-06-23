@@ -1,0 +1,153 @@
+*, h1, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.nav-bar {
+    background:slateblue;
+    min-width:150px;
+    height:100vh;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin:0;
+    padding:20px;
+    padding-top:50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    font-size:14px;
+}
+
+.main {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Header */
+
+.header {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header > h1 {
+    letter-spacing: 1.5px;
+    margin:30px 0 5px 0;
+}
+
+.header > p {
+    letter-spacing: 1px;
+    margin-bottom:0;
+}
+
+/* Footer */
+
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    width:100%;
+    height:100px;
+    background: rgb(20, 20, 20, 0.8);
+}
+
+/* Home */
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+}
+
+.home > h3 {
+    width:400px;
+    line-height: 2;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.home > img {
+    width:100%;
+    max-width:300px;
+}
+
+/* Contact */
+
+.form {
+    display:flex;
+    gap:20px;
+    flex-direction: column;
+    width:400px;
+}
+
+.form > h1 {
+    letter-spacing: 1.5px;
+    padding-bottom: 3px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    width:200px;
+    margin:0 auto;
+}
+
+.input-field, .text-area {
+    padding:8px 15px;
+    resize: none;
+}
+
+.text-area {
+    height:100px;
+}
+
+.submit-btn {
+    padding:10px;
+    border-radius: 7px;
+    border:none;
+    background:crimson;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Information & Guide */
+
+.info, .guide {
+    width:70%;
+}
+
+.info > h1, .guide > h1 {
+    margin:0 auto 20px auto;
+    width:200px;
+    padding-bottom:5px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    border-bottom: 2px solid black;
+}
+
+.info > p, .guide > p {
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 1.5
+}
